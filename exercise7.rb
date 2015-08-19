@@ -13,17 +13,17 @@ students = {
 
 students[:cohort4] = 43
 
-cohort_size(students)
+# cohort_size(students)
 
-students.each do |key, value|
-	puts key
+# students.each do |key, value|
+# 	puts key
+# end
+
+students.each do |cohort, size|
+	new_size = size * 1.05
+	puts new_size
 end
 
-students.each do |key, value|
-	value * 1.05
-	puts value
-end
+# students.delete(:cohort2)
 
-students.delete(:cohort2)
-
-cohort_size(students)
+# cohort_size(students)
