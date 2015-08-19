@@ -18,3 +18,8 @@ cohort_size(students)
 students.each do |key, value|
 	puts key
 end
+
+students.each do |key, value|
+	value * 1.05
+	puts value
+end
