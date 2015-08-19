@@ -23,3 +23,7 @@ students.each do |key, value|
 	value * 1.05
 	puts value
 end
+
+students.delete(:cohort2)
+
+cohort_size(students)
