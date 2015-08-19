@@ -14,7 +14,7 @@ grocery_list = [
 grocery_list << "rice"
 
 
-output(grocery_list.sort)
+output(grocery_list)
 
 puts grocery_list.length
 
@@ -25,3 +25,9 @@ else
 end
 
 puts grocery_list[1]
+
+output(grocery_list.sort)
+
+grocery_list.delete("salmon")
+
+output(grocery_list)
