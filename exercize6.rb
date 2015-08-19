@@ -1,8 +1,17 @@
-grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
+def output(shoppingList)
+	shoppingList.each do |item|
+		puts "* #{item}"
+	end
+end
 
-puts "
-* #{grocery_list[0]}
-* #{grocery_list[1]}
-* #{grocery_list[2]}
-* #{grocery_list[3]}
-"
+grocery_list = [
+	"carrots", 
+	"toilet paper", 
+	"apples", 
+	"salmon"
+]
+
+grocery_list << "rice"
+
+
+output(grocery_list)
