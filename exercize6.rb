@@ -15,3 +15,5 @@ grocery_list << "rice"
 
 
 output(grocery_list)
+
+puts grocery_list.length
