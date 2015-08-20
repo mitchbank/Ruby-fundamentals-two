@@ -19,11 +19,20 @@ students[:cohort4] = 43
 # 	puts key
 # end
 
-students.each do |cohort, size|
-	new_size = size * 1.05
-	puts new_size
-end
+# students.each do |cohort, size|
+# 	new_size = size * 1.05
+# 	puts new_size
+# end
+
 
 # students.delete(:cohort2)
 
 # cohort_size(students)
+
+sum = 0
+
+students.each do |cohort, size|
+	sum += size
+end
+
+puts sum
